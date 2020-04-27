@@ -1,0 +1,62 @@
+.App{
+  font-family: 'Charter';
+}
+
+.navbar-black{
+  background-color: black;
+  color: white;
+  font-size: 2em;
+  padding: 10px;
+  height: 10vh;
+}
+.navbar-logo{
+  height: 120px;
+  position: relative;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+  margin-top: 20vh;
+}
+
+.email-form{
+  font-family: "Gill Sans";
+  font-size: 1.5em;
+}
+
+.title{
+  max-width: 10em;
+  font-size: 3em;
+}
+
+.panel{
+  max-width: 90vw;
+  padding-left: 10vw;
+}
+.panel-right{
+  max-width: 90vw;
+  padding-right: 10vw;
+}
+
+@media (max-width: 1000px){
+  .row{
+    flex-direction: column;
+  } 
+}
+
+@media (max-width: 760px){
+  .title{
+    font-size: 2.1em;
+    max-width: 10em;
+  } 
+  .row{
+    margin-top: 15vh;
+  }
+}
+
+.cover-pic{
+  height: 50vh;
+}
