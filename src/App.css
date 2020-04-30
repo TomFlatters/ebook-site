@@ -139,6 +139,10 @@ body{
   font-family: 'Charter', 'Times New Roman', Times, serif;
 }
 
+.footer-logo{
+  height: 10vh;
+}
+
 /* MAILCHIMP CUSTOM */
 #mc_embed_signup{
   background:#fff; clear:left; font:18px "Gill Sans",Arial,sans-serif; width:100%; padding:0; margin:0; display: -webkit-box; display: -ms-flexbox; display: flex;

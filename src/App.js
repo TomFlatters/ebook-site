@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 import cover from './images/cover.png'
+import logo_white from './images/logo_white.png'
 
 import Navbar from 'react-bootstrap/Navbar';
 
@@ -90,7 +91,9 @@ function App() {
       </div>
 
       </div>
-      
+      <Navbar className="navbar-black">
+        <img className="footer-logo" src={logo_white} alt="StudyJump logo"></img>
+      </Navbar>
       </div>
   );
 }
