@@ -7,23 +7,37 @@
   color: white;
   font-size: 1.6em;
   padding: 10px;
-  height: 6vh;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  font-family: "Gill Sans";
 }
 .navbar-logo{
   height: 120px;
   position: relative;
 }
 
+.col{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: auto;
+  min-width: 80vw;
+  padding: 0 0 15vh 0;
+  background: white;
+}
 .row{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: auto;
+  width: inherit;
   min-width: 80vw;
-  padding: 10vh 0 20vh 0;
   background: white;
-  min-height: 100vh;
+  padding: 10vh 0 5vh 0;
+  margin: 0;
 }
+
 
 .title{
   max-width: 10em;
@@ -37,6 +51,8 @@
 }
 .panel-right{
   max-width: 90vw;
+  display: flex;
+  justify-content: center;
   margin-right: 5vw;
 }
 
@@ -52,37 +68,109 @@ body{
 .centre-row{
   display:flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .p-text{
   max-width: 30em;
 }
 
+.story{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+  width: 100%;
+  background-color: white;
+  font-size: 1.2em;
+  font-family: "Gill Sans"
+}
+.story-inner{
+  max-width: 40vw;
+}
+
+.email-form{
+  font-family: "Gill Sans";
+}
+
+.font-charter{
+  font-family: "Charter";
+}
+
+/* MAILCHIMP CUSTOM */
+#mc_embed_signup{
+  background:#fff; clear:left; font:18px "Gill Sans",Arial,sans-serif; width:100%; padding:0; margin:0; display: flex;
+}
+
+#mc_embed_signup input.email{
+  background:#fff;font:18px "Gill Sans",Arial,sans-serif;
+}
+#mc-embedded-subscribe.button{
+  background: #70A90F;font:18px "Gill Sans",Arial,sans-serif;
+}
+#mc-embedded-subscribe.button:hover{
+  background: #476B0A;;font:18px "Gill Sans",Arial,sans-serif;
+}
+             
+/* MEDIA QUERIES (decreasing width) */
+
 @media (max-width: 1000px){
   .row{
     flex-direction: column;
   } 
+  .panel-right{
+    margin: 0;
+  }
+  .story-inner{
+    max-width: 50vw;
+  }
 }
 
-@media (max-width: 760px){
+@media (max-width: 768px){
   .title{
-    font-size: 2.1em;
+    font-size: 2.5em;
     max-width: 10em;
   } 
   .p-text{
-    max-width: 21em;
+    max-width: 25em;
   }
+  #mc_embed_signup {
+    display: flex;
+    justify-content: center;
+    /* margin-right: 5vw; */
+  }
+  #mc_embed_signup input.email{
+    width: auto;
+    /* margin:0; */
+    width: 30vw;
+    min-width: 200px;
+    text-align: center;
+  }
+  #mc-embedded-subscribe.button{
+    background: #70A90F;;font:18px "Gill Sans",Arial,sans-serif;
+    width: 100px;
+    /* min-width: 80px; */
+    text-align: center;
+  }
+  .panel{
+    margin-left: 0;
+    text-align: center;
+  }
+  .story-inner{
+    max-width: 60vw;
+  }
+}
+
+@media (max-width: 425px){
   .row{
-    padding-top: 15vh;
+    padding-top: 5vh;
+  }
+  .title{
+    font-size: 2.2em;
+    max-width: 10em;
+  } 
+  .story-inner{
+    max-width: 80vw;
   }
 }
-
-/* MAILCHIMP */
-#mc_embed_signup{
-  background:#fff; clear:left; font:14px "Charter",Arial,sans-serif; width:100%;
-}
-
-#mc_embed_signup input.email{
-  background:#fff;font:14px "Charter",Arial,sans-serif;
-}
-       
