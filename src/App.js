@@ -27,7 +27,6 @@ function App() {
             Get notified when we launch our ebook
           </h1>
           
-          <div className="p-text">
           <div className="email-form">
            
             {/* EMAIL FORM  */}
@@ -46,10 +45,9 @@ function App() {
               </form>
             </div>
           </div>
-          </div>
         </div>
         <div className="panel-right">
-          <img className="cover-pic" src={cover}></img>
+          <img className="cover-pic" alt="Our book cover, titled 'Learn Better at Home: The Student Guide to Effective Self-Study'" src={cover}></img>
         </div>
         </div>
         <div className="story">

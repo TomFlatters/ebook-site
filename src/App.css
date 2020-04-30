@@ -1,5 +1,9 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 .App{
-  font-family: 'Charter';
+  font-family: 'Charter', 'Times New Roman', Times, serif;
 }
 
 .navbar-black{
@@ -8,8 +12,12 @@
   font-size: 1.6em;
   padding: 10px;
   height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-family: "Gill Sans";
 }
 .navbar-logo{
@@ -18,26 +26,41 @@
 }
 
 .col{
+  flex:1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   width: auto;
   min-width: 80vw;
   padding: 0 0 15vh 0;
   background: white;
 }
 .row{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   width: inherit;
   min-width: 80vw;
   background: white;
   padding: 10vh 0 5vh 0;
   margin: 0;
 }
-
 
 .title{
   max-width: 10em;
@@ -51,11 +74,14 @@
 }
 .panel-right{
   max-width: 90vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-right: 5vw;
 }
-
 
 .cover-pic{
   height: 50vh;
@@ -66,10 +92,19 @@ body{
 }
 
 .centre-row{
+  display:-webkit-box;
+  display:-ms-flexbox;
   display:flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .p-text{
@@ -77,9 +112,15 @@ body{
 }
 
 .story{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 10vh;
   width: 100%;
   background-color: white;
@@ -95,12 +136,12 @@ body{
 }
 
 .font-charter{
-  font-family: "Charter";
+  font-family: 'Charter', 'Times New Roman', Times, serif;
 }
 
 /* MAILCHIMP CUSTOM */
 #mc_embed_signup{
-  background:#fff; clear:left; font:18px "Gill Sans",Arial,sans-serif; width:100%; padding:0; margin:0; display: flex;
+  background:#fff; clear:left; font:18px "Gill Sans",Arial,sans-serif; width:100%; padding:0; margin:0; display: -webkit-box; display: -ms-flexbox; display: flex;
 }
 
 #mc_embed_signup input.email{
@@ -115,9 +156,12 @@ body{
              
 /* MEDIA QUERIES (decreasing width) */
 
-@media (max-width: 1000px){
+@media only screen and (max-width: 1000px){
   .row{
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   } 
   .panel-right{
     margin: 0;
@@ -127,7 +171,7 @@ body{
   }
 }
 
-@media (max-width: 768px){
+@media only screen and (max-width: 768px){
   .title{
     font-size: 2.5em;
     max-width: 10em;
@@ -136,13 +180,15 @@ body{
     max-width: 25em;
   }
   #mc_embed_signup {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    /* margin-right: 5vw; */
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   #mc_embed_signup input.email{
     width: auto;
-    /* margin:0; */
     width: 30vw;
     min-width: 200px;
     text-align: center;
@@ -150,7 +196,6 @@ body{
   #mc-embedded-subscribe.button{
     background: #70A90F;;font:18px "Gill Sans",Arial,sans-serif;
     width: 100px;
-    /* min-width: 80px; */
     text-align: center;
   }
   .panel{
@@ -162,7 +207,7 @@ body{
   }
 }
 
-@media (max-width: 425px){
+@media only screen and (max-width: 425px){
   .row{
     padding-top: 5vh;
   }
