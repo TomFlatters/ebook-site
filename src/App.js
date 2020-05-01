@@ -56,21 +56,34 @@ function App() {
             <p>
               <em className="font-charter">The Story</em>
               <br />
-                We're all stuck at home, and learning can be hard at home. That's why we wanted to find out what
-                students are struggling with the most.
+                We're all stuck at home, and learning can be hard at home. That's why we wanted to help students out during this tough time.
               </p>
             <p>
               So we made a survey, got some responses (thanks for contributing), and then did it all again to learn a bit more. We found that learning effectively
-              at home is a major problem. Students are struggling with motivation, goal setting, and
-              remaining focussed. And that's when we realised we should share our experiences in an ebook - titled "Learn Better at Home".
-              </p>
+              at home is a major problem. Students are struggling to motivate themselves, set goals, and stay focussed.
+            </p>
+            <p>
+              And that's when we realised we should share our experiences in an eBook: "Learn Better at Home: The Student Guide to Effective Self-Study".
+            </p>
+            <p>
+            We're sharing key tools, tips, and methods for success in learning at home. Whether you want to succeed in your exams or teach yourself a new subject, we've got you covered. (Not literally - this isn't an insurance policy, sorry!)
+            </p><p>
+            We couldn't find anything available that's quite like what we're writing: an comprehensive, in-depth, student-written book on learning from home, whatever your learning aims.
+            </p><p>
+            We don't wnat to exclude anyone from accessing what we have to share, so we'll be using a 'Name Your Price' fundraiser, with every penny of profit going to charity. We would really appreciate any support you can provide. But, if you're tight on cash, you can read our book for free.
+            </p>
             <p>
               <em className="font-charter">Who are we?</em>
               <br />
-              We are 4 Oxford undergraduates who have each had experience in self-studying for exams. And we're
-              all a bit different: Peter and Scarlett read PPE, Tejas does Physics, and I (Tom) study Materials Science.
+              We are four undergrads from the University of Oxford. We've self-studied for exams and to gain a better understanding of the world. 
+            </p><p>
+              And we're all a bit different. Peter and Scarlett study PPE (Philosophy, Politics, and Economics), Tejas does Physics, and I (Tom) study Materials Science.
               </p><p>
-              We hope our breadth of subjects and experiences in learning them means we can offer something to everyone.
+              Peter taught himself a sizable chunk of Further Maths A-level. Scarlett taught herself most of her A-levels in Chemistry and English Literature. I taught myself Additional Maths at GCSE. But Tejas outdid us all by self-teaching all 4 of his A-levels!
+              </p><p>
+              It's not just about exams, though. At Oxford, we're often expected to teach ourselves content and concepts, so we've all developed these skills since starting university. I've completed Computer Science courses to expand my knowledge, and Tejas and Peter have done the same in Physics and Maths.
+              </p><p>
+              We can share insights based on the things we found that worked - and the things that didn't. We hope that, with our breadth of subjects and experiences in learning them, we can offer something to everyone.
               </p>
               <div id="mc_embed_signup">
               <form action="https://gmail.us8.list-manage.com/subscribe/post?u=6ba70ae28d7ac6fb6c8c49d06&amp;id=6885c89af9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" novalidate>
